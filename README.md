@@ -16,7 +16,7 @@
 
 #### 前端框架
 >- **Node.js**
->- **Yarn** 包管理
+>- **Yarn** 包管理****
 >- **material-ui** UI库组件
 >- **next** 路由管理
 
@@ -63,10 +63,16 @@
 >- Chrome浏览器 V71.0
 >- Chrome浏览器下的Metamask扩展插件
 #### 运行流程
->- 克隆仓库至本地
->- 在项目文件夹BlockChian-dev根目录下打开命令行
->- 输入yarn安装依赖包（此过程如卡住，为网络问题导致）
->- npm run compile 编译合约
->- npm run deploy 部署合约
->- npm run dev 启动服务器
->- 浏览器访问 localhost:3000
+
+> 1. 克隆仓库至本地
+> 2. 在项目文件夹BlockChian-dev根目录下打开命令行
+> 3. 安装依赖包（此过程如卡住，为网络问题导致）
+> ``` yarn```
+> 4. 编译合约
+> ```npm run compile```
+> 5. 部署合约
+> ```npm run deploy```
+> 6. 启动服务器
+> ```npm run dev ```
+> 7. 浏览器访问 
+> localhost:3000
